@@ -6,6 +6,22 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
 				"name": "creator",
 				"outputs": [
@@ -33,12 +49,38 @@
 			},
 			{
 				"inputs": [],
+				"name": "maxInt",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minInt",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "name",
 				"outputs": [
 					{
-						"internalType": "bytes32",
+						"internalType": "string",
 						"name": "",
-						"type": "bytes32"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -62,9 +104,9 @@
 				"name": "number",
 				"outputs": [
 					{
-						"internalType": "uint8",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -91,13 +133,17 @@
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {},
+			"methods": {
+				"minInt()": {
+					"notice": "<int96 is an alias for int128 or long long     "
+				}
+			},
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/language_syntax.sol": "MyContract"
+			"contracts/datatypes.sol": "DataTypes"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -111,12 +157,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/language_syntax.sol": {
-			"keccak256": "0x6810f76457b1df11eeb8e1a0e2c17ad64cce3855ef46eec477939a701f66f4ba",
+		"contracts/datatypes.sol": {
+			"keccak256": "0x0cd81b5bcb267b0f3172e22e9c4fdf8bf28c926e710d504833309da3522f3301",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://72696aebc86e464d4879392ecc6581081a572012caae8ebcfe501e2825aaa64d",
-				"dweb:/ipfs/QmZu5QD5pKK6qJJDhVvYisMoNSfy2JPZUDQ8g2CVDZ1dij"
+				"bzz-raw://1ec2ff73cd7ce68d525a8fe1d7079b174c26cf400fb21e04065683bd05a91105",
+				"dweb:/ipfs/QmSMQ3KPQGmGyC1rFPN9zVNYN2TTbuFhwYPErugmm7SMVb"
 			]
 		}
 	},
