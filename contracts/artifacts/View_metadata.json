@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "checkNums",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/6_view.sol": "View"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/6_view.sol": {
+			"keccak256": "0x328d426e85c726751d93dd88eacded495cb37aef4d720e209ff89651df0e6e81",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://79bac73b26fc7aa64c84ca81fab64f7caeb87fd9135cf9cca7dd6cef75594951",
+				"dweb:/ipfs/QmWUs38f4bJqZ9VrFPsgBXfRCsRbaMgJZWKbBxvoTtwP4D"
+			]
+		}
+	},
+	"version": 1
+}
