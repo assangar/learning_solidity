@@ -7,6 +7,24 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "calculate",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "product",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "total",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "checkNums",
 				"outputs": [
 					{
@@ -21,6 +39,24 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -37,7 +73,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/6_view.sol": "View"
+			"contracts/6_viewpure.sol": "View"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -51,12 +87,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/6_view.sol": {
-			"keccak256": "0x328d426e85c726751d93dd88eacded495cb37aef4d720e209ff89651df0e6e81",
+		"contracts/6_viewpure.sol": {
+			"keccak256": "0x37069be7daf1d7541b93e6aa55d68a3f25cb9f2a1047924ad30ac88f18b5dbd8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://79bac73b26fc7aa64c84ca81fab64f7caeb87fd9135cf9cca7dd6cef75594951",
-				"dweb:/ipfs/QmWUs38f4bJqZ9VrFPsgBXfRCsRbaMgJZWKbBxvoTtwP4D"
+				"bzz-raw://618109de438ec2e7a2cdb3b7df4f43178598a5f8bfb0130a64e0c2f22c67686a",
+				"dweb:/ipfs/Qmeg1mAuGsdcjRExDZxmRLMBc5NTHPTiN3jHSqLzTS7z43"
 			]
 		}
 	},
