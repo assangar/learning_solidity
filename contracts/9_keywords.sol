@@ -30,8 +30,14 @@ contract Keywords {
         return "No Overflow";
     }
 
-    function checkRevertOverflow(int _num1, int _num2 public pure returns (string){
-        if 
+    function checkRevertOverflow(int _num1, int _num2) public view returns (string memory, int){
+        int sum = _num1+_num2;
+        if (sum < 0 || sum > 255) {
+            revert("Overflow exists");
+        } else {
+            return ("No Overflow", sum);
+        }
     }
+    
 }
  

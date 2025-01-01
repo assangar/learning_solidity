@@ -68,6 +68,35 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_num1",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "_num2",
+						"type": "int256"
+					}
+				],
+				"name": "checkRevertOverflow",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "overflow",
 				"outputs": [
@@ -109,11 +138,11 @@
 	},
 	"sources": {
 		"contracts/9_keywords.sol": {
-			"keccak256": "0xb6abdd501a325ded6d311286efd0454f296ff86dea883968fa9aeb375e79c3fc",
+			"keccak256": "0x5a090c54c732f17940d44c2d14f2190c9f24cc5090e0a6b496aed0449983121b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://79d1c238409a07c82aa22001cc9a1fda046b26d8bfc0d73d4b404297b86bf4cb",
-				"dweb:/ipfs/QmPLdceJVx1GsC1dTcVy4FRz8AsvaAyinZJYm3fgyGaQ6c"
+				"bzz-raw://f87cc4cf75a1c88c7ec6c1fcd14a9f0634bf6558027d3a0993d4720a4af41c24",
+				"dweb:/ipfs/QmTfaqbWYYJCJr21YJhnmkRavKbnv4WnmEJoxXgfxXBkFW"
 			]
 		}
 	},
