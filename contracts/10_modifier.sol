@@ -40,6 +40,7 @@ contract Modifier {
     function seeSecretMessage() public onlyOwner() {
         secret_message = "This is the secret message";
     }
+    
 
 
 }
